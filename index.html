@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header_text">
+        <div class="numbers">
+            <h2>all - <span id="all">0</span></h2>
+            <h2>completed - <span id="completed">0</span></h2>
+        </div>
+            <h1>Notes</h1>
+    </div>
+
+    <section id="info">
+        <div class="box">
+
+            <i class="fa-solid fa-xmark" id="close"></i>
+
+            <div class="title">
+                <input type="text" placeholder="Title" id="title" maxlength="20">
+            </div>
+
+            <div class="text">
+                <textarea placeholder="Text" id="text" maxlength="350"></textarea>
+            </div>
+            <button class="add">Add</button>
+        </div>
+    </section>
+
+    <div class="container"></div>
+
+    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3af59d89b0.js" crossorigin="anonymous"></script>
+</body>
+</html>
